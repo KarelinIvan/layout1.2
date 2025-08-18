@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 76px;
+}
+
 .top-link {
     font-size: 16px;
     line-height: 20px;
@@ -7,11 +16,14 @@
     font-weight: 600;
     font-size: 64px;
     line-height: 70px;
+    padding-top: 64px;
+    padding-bottom: 16px;
 }
 
 .paragraph1 {
     font-size: 24px;
     line-height: 32px;
+    padding-bottom: 16px;
 }
 
 .link {
@@ -24,6 +36,7 @@
     font-size: 48px;
     line-height: 59px;
     color: #000000;
+    padding-bottom: 32px;
 }
 
 .h3 {
@@ -31,12 +44,14 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    padding-bottom: 8px;
 }
 
 .paragraph2 {
     font-size: 14px;
     line-height: 17px;
     color: #888888;
+    padding-bottom: 12px;
 }
 
 .paragraph3 {
@@ -59,6 +74,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    padding-bottom: 12px;
 }
 
 .bottom-link {
@@ -69,10 +85,15 @@
     text-decoration: none;
 }
 
+.bottom-link:hover {
+    border-bottom: 2px solid red;
+}
+
 .paragraph5 {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
+    padding-bottom: 16px;
 }
 
 .enter {
