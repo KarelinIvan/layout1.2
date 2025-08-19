@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     margin-top: 76px;
 }
@@ -10,6 +14,10 @@
 .top-link {
     font-size: 16px;
     line-height: 20px;
+}
+
+.top-link:hover {
+    text-decoration: underline;
 }
 
 .title {
@@ -86,7 +94,7 @@
 }
 
 .bottom-link:hover {
-    border-bottom: 2px solid red;
+    text-decoration: underline;
 }
 
 .paragraph5 {
