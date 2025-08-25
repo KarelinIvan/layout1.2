@@ -24,14 +24,14 @@ a {
     font-weight: 600;
     font-size: 64px;
     line-height: 70px;
-    padding-top: 64px;
-    padding-bottom: 16px;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
 .paragraph1 {
     font-size: 24px;
     line-height: 32px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .link {
@@ -44,7 +44,7 @@ a {
     font-size: 48px;
     line-height: 59px;
     color: #000000;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .h3 {
@@ -52,14 +52,14 @@ a {
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .paragraph2 {
     font-size: 14px;
     line-height: 17px;
     color: #888888;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .paragraph3 {
@@ -82,7 +82,7 @@ a {
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .bottom-link {
@@ -101,7 +101,7 @@ a {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .enter {
