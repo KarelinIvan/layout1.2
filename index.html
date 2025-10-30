@@ -15,42 +15,40 @@
       <form action="#">
           <input type="text">
       </form>
-      <nav>
-        <a href="index.html" class="top-link">Главная</a>
-        <a href="catalog.html" class="top-link">Каталог</a>
-        <a href="#" class="top-link">Корзина</a>
+      <nav class="menu">
+        <a class="menu__link" href="catalog.html">Каталог</a>
+        <a class="menu__link" href="#">Корзина</a>
       </nav>
     </header>
-    <section>
+    <section class="top">
       <h1 class="title">Всё, чего заслуживает ваш дом</h1>
-      <p class="paragraph1">Наша мебель - ваше отражение</p>
-      <a class="link" href="catalog.html">Перейти в каталог</a>
+      <p class="top__text">Наша мебель - ваше отражение</p>
+      <a class="top__link" href="catalog.html">Перейти в каталог</a>
     </section>
     <section>
-      <h2 class="h2">Специальное предложение</h2>
+      <h2 class="heading">Специальное предложение</h2>
       <img src="./img/product1.jpg" alt="изображение кресла">
-      <h3 class="h3">Кресло VILORA</h3>
-      <p class="paragraph2">Мягкое и уютное, аккуратное и стильное. Упругие подушки сидения и приятная на ощупь ткань</p>
-      <p class="paragraph3">21000</p>
-      <p class="paragraph4">28000</p>
+      <h3 class="product__heading">Кресло VILORA</h3>
+      <p class="product__text">Мягкое и уютное, аккуратное и стильное. Упругие подушки сидения и приятная на ощупь ткань</p>
+      <p class="product__price">21000</p>
+      <p class="product__price product__price_sale">28000</p>
     </section>
     <footer>
-      <h4 class="h4">Меню</h4>
-      <nav>
-          <a class="bottom-link" href="index.html">Главная</a>
-          <a class="bottom-link" href="catalog.html">Каталог</a>
-          <a class="bottom-link" href="#">Корзина</a>
-      </nav>
-      <h4 class="h4">Контакты</h4>
-      <a class="bottom-link" href="#">+79088008080</a><br>
-      <a class="bottom-link" href="#">help@interier.com</a><br>
-      <a href="#"><img src="./img/telegram.svg"></a>
-      <a href="#"><img src="./img/vk.svg"></a>
-      <a href="#"><img src="./img/dzen.svg"></a>
-      <form action="">
-        <p class="paragraph5">Получайте наши новости и обновления</p>
-        <input type="email" class="enter">
-        <button class="button">Подписаться</button>
+      <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+      <h4 class="footer__heading">Меню</h4>
+        <a class="footer__link" href="index.html">Главная</a>
+        <a class="footer__link" href="catalog.html">Каталог</a>
+        <a class="footer__link" href="#">Корзина</a>
+      <h4 class="footer__heading">Контакты</h4>
+        <a class="footer__link" href="#">+79088008080</a><br>
+        <a class="footer__link" href="#">help@interier.com</a><br>
+        <a class="footer__link" href="#"><img src="./img/telegram.svg"></a>
+        <a class="footer__link" href="#"><img src="./img/vk.svg"></a>
+        <a class="footer__link" href="#"><img src="./img/dzen.svg"></a>
+      <form class="form" action="#">
+        <p class="form__text">Получайте наши новости и обновления</p>
+        <input class="form__email" type="email">
+        <button class="form__button" type="submit">Подписаться</button>
       </form>
     </footer>
   </body>
