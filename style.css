@@ -251,18 +251,24 @@
 
 .footer__item {
     /* Rectangle 50 */
-    /* width: 177px; */
+    width: 177px;
     height: 158px;
     box-sizing: border-box;
-    /* border: 1px solid rgba(0, 0, 0, 1); */
-    margin: 20px 725px 538px 29px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-top: 7px;
+    margin-left: 227px;
+    margin-right: 19px;
+    margin-bottom: 12px;
 }
 
 .footer__item_nav {
     /* Rectangle 49 */
-    /* width: 136px; */
+    width: 136px;
     height: 150px;
-    margin: 15px 43px 732px 24px;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 269px;
+    margin-bottom: 17px;
 }
 
 .footer__menu {
@@ -287,11 +293,14 @@
 
 .footer__form {
     /* Rectangle 52 */
-    /* width: 353px; */
+    width: 353px;
     height: 168px;
     box-sizing: border-box;
-    /* border: 1px solid rgba(37, 215, 8, 1); */
-    margin: 15px 1007px 60px 24px;
+    border: 1px solid rgba(37, 215, 8, 1);
+    margin-top: 7px;
+    margin-left: 534px;
+    margin-right: 24px;
+    margin-bottom: 14px;
 }
 
 .footer__heading {
