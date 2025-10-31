@@ -6,59 +6,273 @@
 .top {
     background-image: url(./img/Rectangle.jpg);
     background-repeat: no-repeat;
+    text-decoration-color: white;
+    /* Rectangle 15 */
+    width: 1440px;
+    height: 735px;
+}
+
+.header {
+    /* Navbar */
+    width: 1200px;
+    height: 76px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px 16px 0px;
+}
+
+.header__logo {
+    /* Интерьер. */
+    width: 198px;
+    height: 44px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__form {
+    /* Rectangle 7 */
+    width: 288px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+
+.header__search {
+    /* Поиск */
+    width: 53px;
+    height: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu {
+    /* Rectangle 30 */
+    width: 190px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgba(17, 47, 152, 1);
+}
+
+.menu__box {
+    /* Frame 2 */
+    width: 170px;
+    height: 20px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
 }
 
 .menu__link {
-    font-size: 18px;
-    line-height: 20px;
+    width: 72px;
+    height: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu__link_catalog {
+    /* Каталог */
+    width: 66px;
+    height: 20px;
 }
 
 .title {
-    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
     font-size: 64px;
+    font-weight: 600;
     line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .top__text {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
     font-size: 24px;
+    font-weight: 400;
     line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .top__link {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
     font-size: 16px;
+    font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 .heading {
-    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
     font-size: 48px;
-    line-height: 59px;
-    color: #000000;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 .product__heading {
-    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
     font-size: 24px;
-    line-height: 29px;
-    color: #000000;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
 }   
 
 .product__text {
+    color: rgba(136, 136, 136, 1);
+    font-family: Montserrat;
     font-size: 14px;
-    line-height: 17px;
-    color: #888888
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .product__price {
-    font-weight: 500;
+    color: rgba(5, 5, 5, 1);
+    font-family: Montserrat;
     font-size: 24px;
-    line-height: 29px;
-    color: #050505
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .product__price_sale {
+    color: rgba(136, 136, 136, 1);
     text-decoration-line: line-through;
-    color: #888888;
+}
+
+.link__box {
+    /* Rectangle 44 */
+    width: 1289px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.link__jump {
+    /* Перейти в каталог */
+    width: 155px;
+    height: 24px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.fon__footer {
+    /* Rectangle 28 */
+    width: 1440px;
+    height: 207px;
+    background: rgba(247, 246, 246, 1);
+}
+
+.footer {
+    /* Rectangle 45 */
+    width: 1380px;
+    height: 199px;
+    box-sizing: border-box;
+    border: 1px solid rgba(1, 240, 226, 1);
+}
+
+.footer__logo {
+    /* Rectangle 46 */
+    width: 265px;
+    height: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.footer__content {
+    /* Rectangle 47 */
+    width: 911px;
+    height: 189px;
+    box-sizing: border-box;
+    border: 1px solid rgba(11, 114, 208, 1);
+}
+
+.footer__info {
+    /* Rectangle 48 */
+    width: 423px;
+    height: 177px;
+    box-sizing: border-box;
+    border: 1px solid rgba(241, 132, 3, 1);
+}
+
+.footer__item {
+    /* Rectangle 50 */
+    width: 177px;
+    height: 158px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.footer__item_nav {
+    /* Rectangle 49 */
+    width: 136px;
+    height: 150px;
+}
+
+.footer__menu {
+    /* footer_menu */
+    width: 76px;
+    height: 116px;
+}
+
+.footer__contacts {
+    /* footer_contacts */
+    width: 132px;
+    height: 87px;
+}
+
+.footer__icons {
+    /* Rectangle 51 */
+    width: 137px;
+    height: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgba(199, 4, 248, 1);
+}
+
+.footer__form {
+    /* Rectangle 52 */
+    width: 353px;
+    height: 168px;
+    box-sizing: border-box;
+    border: 1px solid rgba(37, 215, 8, 1);
 }
 
 .footer__heading {
@@ -105,13 +319,3 @@
     color: #000000;
 }
 
-.link__box {
-    color: rgba(0, 0, 0, 1);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-decoration-line: underline;
-}
