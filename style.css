@@ -196,7 +196,7 @@
 
 .fon__footer {
     /* Rectangle 28 */
-    width: 1440px;
+    /* width: 1440px; */
     height: 207px;
     background: rgba(247, 246, 246, 1);
 }
@@ -207,6 +207,10 @@
     height: 199px;
     box-sizing: border-box;
     border: 1px solid rgba(1, 240, 226, 1);
+    margin-top: 3px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .footer__logo {
@@ -215,6 +219,10 @@
     height: 130px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 1060px;
+    margin-bottom: 49px;
 }
 
 .footer__content {
@@ -223,6 +231,10 @@
     height: 189px;
     box-sizing: border-box;
     border: 1px solid rgba(11, 114, 208, 1);
+    margin-top: 5px;
+    margin-left: 433px;
+    margin-right: 36px;
+    margin-bottom: 5px;
 }
 
 .footer__info {
@@ -231,48 +243,55 @@
     height: 177px;
     box-sizing: border-box;
     border: 1px solid rgba(241, 132, 3, 1);
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 463px;
+    margin-bottom: 7px;
 }
 
 .footer__item {
     /* Rectangle 50 */
-    width: 177px;
+    /* width: 177px; */
     height: 158px;
     box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 1);
+    /* border: 1px solid rgba(0, 0, 0, 1); */
+    margin: 20px 725px 538px 29px;
 }
 
 .footer__item_nav {
     /* Rectangle 49 */
-    width: 136px;
+    /* width: 136px; */
     height: 150px;
+    margin: 15px 43px 732px 24px;
 }
 
 .footer__menu {
     /* footer_menu */
-    width: 76px;
+    /* width: 76px; */
     height: 116px;
 }
 
 .footer__contacts {
     /* footer_contacts */
-    width: 132px;
+    /* width: 132px; */
     height: 87px;
 }
 
 .footer__icons {
     /* Rectangle 51 */
-    width: 137px;
+    /* width: 137px; */
     height: 39px;
     box-sizing: border-box;
-    border: 1px solid rgba(199, 4, 248, 1);
+    /* border: 1px solid rgba(199, 4, 248, 1); */
 }
 
 .footer__form {
     /* Rectangle 52 */
-    width: 353px;
+    /* width: 353px; */
     height: 168px;
     box-sizing: border-box;
-    border: 1px solid rgba(37, 215, 8, 1);
+    /* border: 1px solid rgba(37, 215, 8, 1); */
+    margin: 15px 1007px 60px 24px;
 }
 
 .footer__heading {
